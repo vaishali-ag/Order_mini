@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else
                     {
-                        Toast.makeText(MainActivity.this, "You have selected "+ String.valueOf(coffee) +" with no Toppings.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "You have selected "+ String.valueOf(coffee) +" with no Toppings. Your Bill is: " +String.valueOf(total), Toast.LENGTH_SHORT).show();
                     }
 
                 }
